@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.OstaliActivities.JedanIgrac">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#97BFE8"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="@dimen/activity_main_absoluteX">
+
+        <ImageButton
+            android:id="@+id/nazad"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:contentDescription="nazad"
+            app:srcCompat="@drawable/nazad" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center|bottom"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+            <ImageButton
+                android:id="@+id/koznazna"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:contentDescription="koznazna"
+                app:srcCompat="@drawable/dugme14" />
+
+                <TextView
+                    android:id="@+id/koznaznaPoeni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="75dp"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/koznaznaText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="0dp"
+                    android:text="ko zna zna"
+                    android:textColor="#009688"
+                    android:textSize="23dp"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+            <ImageButton
+                android:id="@+id/spojnice"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:contentDescription="spojnice"
+                app:srcCompat="@drawable/dugme13" />
+
+                <TextView
+                    android:id="@+id/spojnicePoeni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="55dp"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/spojniceText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:text="spojnice"
+                android:textColor="#009688"
+                android:textSize="23dp"
+                android:textStyle="bold|italic" />
+        </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center|bottom"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+            <ImageButton
+                android:id="@+id/asocijacije"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:contentDescription="asocijacije"
+                app:srcCompat="@drawable/dugme16" />
+
+                <TextView
+                    android:id="@+id/asocijacijePoeni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="80dp"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/asocijacijeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:text="asocijacije"
+                android:textColor="#009688"
+                android:textSize="23dp"
+                android:textStyle="bold|italic" />
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+            <ImageButton
+                android:id="@+id/skocko"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:contentDescription="skocko"
+                app:srcCompat="@drawable/dugme18" />
+                <TextView
+                    android:id="@+id/skockoPoeni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="65dp"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:id="@+id/skockoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="0dp"
+                    android:text="skocko"
+                    android:textColor="#009688"
+                    android:textSize="23dp"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center|bottom"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+            <ImageButton
+                android:id="@+id/korakpokorak"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:contentDescription="korakpokorak"
+                app:srcCompat="@drawable/dugme23" />
+                <TextView
+                    android:id="@+id/korakpokorakPoeni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="75dp"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+            <TextView
+                android:id="@+id/korakpokorakText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:text="korak po korak"
+                android:textColor="#009688"
+                android:textSize="23dp"
+                android:textStyle="bold|italic" />
+        </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp">
+            <ImageButton
+                android:id="@+id/mojbroj"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:contentDescription="mojbroj"
+                app:srcCompat="@drawable/dugme19" />
+                <TextView
+                    android:id="@+id/mojbrojPoeni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="70dp"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textStyle="bold|italic" />
+            <TextView
+            android:id="@+id/mojbrojText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:text="moj broj"
+            android:textColor="#009688"
+            android:textSize="23dp"
+            android:textStyle="bold|italic" />
+                </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/ukupno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="ukupno:" />
+            <TextView
+                android:id="@+id/ja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/logo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/naslov"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="   slagalica   "
+                android:textColor="#EA3270"
+                android:textSize="40sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/logo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/logo" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

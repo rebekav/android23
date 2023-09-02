@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="crna">#FF000000</color>
+    <color name="bela">#FFFFFFFF</color>
+    <color name="pozadina">#FF97BFE8</color>
+    <color name="naslov">#FFEA3270</color>
+    <color name="plava">#02acfa</color>
+    <color name="crvena">#fa0202</color>
+    <color name="spojniceTekst">#009688</color>
+    <color name="dvaIgracaDugmeTekst">#009688</color>
+    <color name="igrac1">#FFEA3270</color>
+    <color name="igrac2">#FF14A4C8</color>
+    <color name="asocijacijeOdgovor">#1FAED3</color>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "223864594978",
+    "firebase_url": "https://slagalica-aead4-default-rtdb.firebaseio.com",
+    "project_id": "slagalica-aead4",
+    "storage_bucket": "slagalica-aead4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223864594978:android:03a2e4d98405eaa09aa07b",
+        "android_client_info": {
+          "package_name": "com.example.slagalica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223864594978-d2ks8n6iqmi1qjg46adf1hr54rlbppu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbh5Si7Wcear6vLX32Srz_HsNTWa8z06w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223864594978-d2ks8n6iqmi1qjg46adf1hr54rlbppu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
